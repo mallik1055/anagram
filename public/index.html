@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anagrams Multiplayer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://avatars0.githubusercontent.com/u/8873844?s=40&v=4" type="image">
+</head>
+<body>
+  <div class="chatarea">
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h2 style="font-size:300%">Anagrams Multiplayer Game</h2>
+        <h3 class="title">What's your nickname?</h3>
+        <input class="usernameInput" type="text" maxlength="14" /><br><br>
+        <input class="btn createGameBtn" type="button" value="Host New Game" />
+        <input class="btn viewGameBtn" type="button" value="Join Running Games" />
+      </div>
+      <!-- <a class="creator" href="https://github.com/mallik1055" target="_blank" >@mallik1055</a> -->
+    </li>
+    <li class="startGame page">
+      <div class="form">
+        <div class="joinedPlayerList">Waiting for opponents to join ...</div>
+        <input class="btn startGameBtn" type="button" value="Start Game" />
+      </div>
+    </li>
+    
+    <li class="joinGame page">
+      <div class="form">
+        <h1 class="title">
+          
+        </h1>
+        <table class="availableGames">
+          <tbody>
+            Checking for running games ..
+          </tbody>      
+        </table>
+      </div>
+    </li>
+    
+    <li class="winner page">
+      <div class="form">
+        <h3 class="title"></h3>
+        <!-- <input class="btn restartGameBtn" type="button" value="Restart Game" /> -->
+      </div>
+    </li>
+    
+    
+    <!--
+    <li class="startgame page">
+      <h3 class="title">Share this link with your friends</h3>
+      <div class="startBtn">Start Game</div>
+    </li>
+    -->
+  </ul>
+  </div>
+  
+  <div class="scoreboard">
+    <table class="scorecard">
+    <thead>
+      <tr>
+        <th>Nick</th>
+        <th>Score</th>
+      </tr>
+      </thead>
+      <tbody>
+        
+      </tbody>
+    </table>
+  </div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="/gamePlay.js"></script>
+
+  </body>
+</html>
+
