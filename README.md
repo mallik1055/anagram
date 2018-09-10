@@ -33,4 +33,4 @@ A multiplayer online game of Anagram, built using socket.io & JS
 
 ### Play the Game
 
-The game can be played at https://omniscient-effect.glitch.me/
+The game can be played on [Glitch](https://omniscient-effect.glitch.me/) - a cool place to host your NodeJs scripts
