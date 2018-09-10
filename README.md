@@ -30,3 +30,7 @@ A multiplayer online game of Anagram, built using socket.io & JS
 ### Shortcuts:
 
 * Up Arrow for previous word (if any) to autofill in text box
+
+### Play the Game
+
+The game can be played at https://omniscient-effect.glitch.me/
