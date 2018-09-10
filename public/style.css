@@ -1,0 +1,311 @@
+/* Fix user-agent */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family:
+    "HelveticaNeue-Light",
+    "Helvetica Neue Light",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    "Lucida Grande",
+    sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  word-wrap: break-word;
+}
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.page {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login.page {
+  background-color: #000;
+  color: #fff;
+}
+
+.login.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.login.page .form .usernameInput {
+  background-color: transparent;
+  border: none;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 10px 0;
+  text-align: center;
+  width: 400px;
+}
+
+.login.page .title {
+  font-size: 200%;
+}
+
+.login.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.login.page .title, .login.page .usernameInput {
+  color: #fff;
+  font-weight: 100;
+}
+
+.login.page .btn{
+  cursor:pointer;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding:10px 50px;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: 100;
+  margin:0 10px;
+}
+
+.login.page .creator{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  color:white;
+  font-weight:800;
+  text-decoration:none;
+}
+
+/* Chat page */
+
+.chat.page {
+  display: none;
+  width:80%;
+}
+
+/* Start Game Page for Host*/
+
+.startGame.page {
+  display:none;
+  background-color: #000;
+  color: #fff;
+}
+
+.startGame.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.startGame.page .btn{
+  cursor:pointer;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding:10px 50px;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: 100;
+  margin:0 10px;
+}
+
+.startGame.page .joinedPlayerList{
+  margin-bottom:30px;
+}
+
+/*Join Game Page for players*/
+
+.joinGame.page {
+  display:none;
+  background-color: #000;
+  color: #fff;
+}
+
+.joinGame.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.joinGame.page .btn{
+  cursor:pointer;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding:10px 50px;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: 100;
+  margin:0 10px;
+}
+
+.joinGame.page .availableGames{
+  margin:0 auto;
+  cursor:pointer;
+  margin-top:30px;
+}
+
+/* Winner Page */
+
+.winner.page {
+  display:none;
+  opacity:0.5;
+  background-color: #000;
+  color: #fff;
+}
+
+.winner.page .form {
+  height: 100px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.winner.page .title {
+  font-size: 200%;
+}
+
+.winer.page .usernameInput {
+  font-size: 200%;
+  letter-spacing: 3px;
+}
+
+.winner.page .btn{
+  cursor:pointer;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  padding:10px 50px;
+  text-align: center;
+  font-size: 100%;
+  letter-spacing: 3px;
+  color: #fff;
+  font-weight: 100;
+  margin:0 10px;
+}
+
+/* Font */
+
+.messages {
+  font-size: 150%;
+}
+
+.inputMessage {
+  font-size: 100%;
+}
+
+.log {
+  color: gray;
+  font-size: 70%;
+  margin: 5px;
+  text-align: left;
+}
+
+/* Messages */
+
+.chatArea {
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.messages {
+  height: 100%;
+  margin: 0;
+  overflow-y: scroll;
+  padding: 10px 20px 10px 20px;
+}
+
+.message.typing .messageBody {
+  color: gray;
+}
+
+.username {
+  font-weight: 700;
+  overflow: hidden;
+  padding-right: 15px;
+  text-align: right;
+}
+
+/* Input */
+
+.inputMessage {
+  border: 10px solid #000;
+  bottom: 0;
+  height: 60px;
+  left: 0;
+  outline: none;
+  padding-left: 10px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+.scoreboard{
+  float:right;
+  width:20%;
+  height:100%;
+  border-left:1px solid black;
+  
+  
+}
+
+.scoreboard tr{
+  padding:10px; 
+}
+
+.scoreboard table{
+  margin:10px auto;  
+}
+
+.scoreboard th{
+  padding:5px 20px;
+}
+
+.scoreboard td{
+  padding:2px 20px;
+}
