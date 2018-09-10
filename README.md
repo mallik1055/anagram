@@ -26,6 +26,7 @@ A multiplayer online game of Anagram, built using socket.io & JS
 * Players who get disconnected or close the game reflect in the scorecard of all other players live in that game
 * Supports multiple game rooms and multiple players in each room at any time
 * Included words data set of >2000 in count and words do not repeat ever in the game
+* Supports 1 vs 1, 2 vs 2 and 3 vs 3 gameplays, members of a team should enter the same nick
 
 ### Shortcuts:
 
