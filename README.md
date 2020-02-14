@@ -10,15 +10,15 @@ A multiplayer online game of Anagram, built using socket.io & JS
 ### Game Rules:
 
 * Players have to guess the right meaningful word from the anagrams prompted by the bot
-* Bot gives a first hint after 7s if no right answer is entered
-* Bot gives a second hint after 5s if no right answer is entered
-* If no answer is received after the above steps, the bot moves to the next word and the current round is finished
+* Bot gives a first hint after 7 seconds if no right answer is entered by any of the players
+* Bot gives a second hint after 5 seconds if no right answer is entered by any of the players
+* If no right answer is received after the above steps, the bot moves to the next word and the current round is finished
 
 ### Scoring:
 
-* 3 points for answering without any hints
-* 2 points after one hint
-* 1 point after two hints
+* +3 points if answered without any hints
+* +2 points if answered after one hint
+* +1 point if answered after two hints
 * Player who scores 30+ points the earliest wins
 
 ### Special Features:
